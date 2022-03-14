@@ -16,7 +16,7 @@ main {
   height: 130px;
   background: #F25C43;
   text-align: center;
-  margin: 0 auto; }
+  margin-top: 600px; }
 
 #headline h1 {
   color: #FFF;
@@ -51,9 +51,15 @@ main {
   width: 460px;
   float: right; }
 
-body {
-  background: url("../images/bg.gif") #FFF repeat-x;
-  margin: 0; }
+.backgroundColor {
+  background: url("../images/bg.gif");
+  background-repeat: repeat-x;
+  margin: 0;
+  background-position: center center;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  margin-top: 0; }
 
 h1 {
   color: #E65C43; }
@@ -69,9 +75,13 @@ header img {
   height: auto; }
 
 header h1 {
+  margin-top: 100px;
   font-weight: 100;
   font-size: 4em;
   line-height: 0; }
+  @media (min-width: 600px) {
+    header h1 .main-title {
+      font-size: 1em; } }
 
 header h2 {
   color: #FFF;
