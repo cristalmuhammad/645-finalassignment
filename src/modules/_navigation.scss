@@ -1,0 +1,39 @@
+figure            {width:400px;
+                   height:190px;
+                   background:url('../images/logo.png') no-repeat 0 50px;float:left;
+                   display:block;
+                   margin:0;}
+
+
+
+nav        {width:540px;
+            height:190px;
+            float:left;
+            text-align:right;}
+nav ul     {list-style-type:none;
+             margin-top:95px;}
+nav ul li   {display:inline;
+            font-size:0.8em; 
+            margin-right:10px;}
+nav ul li a {color: $text-red;
+             text-decoration:none;
+             letter-spacing:-0.01em;
+            &:hover {
+                color: $white;
+            }
+            }
+
+                                /* FOOTER */
+.greybar                    {width:100%;
+    height:90px;
+    background:$bottombar;
+    clear:both;
+    padding-top:30px;}
+footer                      {width:100%;
+    height:120px;
+    background:$darkgrey;
+    text-align:center;
+    color:$white;
+    padding-top:50px;}
+
+    
